@@ -1,0 +1,75 @@
+div.header{
+    text-align: right;
+}
+
+img#logo{
+    height: 120px;
+    width: 450px;
+}
+
+
+p{
+    text-align: justify;
+}
+
+p#inicio{
+    text-align: center;
+    background-color: #45a127;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 20px;
+}
+
+h2{
+    background-color: #45a127;
+    color: #ffffff;
+    padding: 5px;
+}
+
+a{
+    color: #ffffff;
+}
+
+a.topo, p.topo{
+    color:#373435;
+    text-align: right;
+}
+
+img.alunos{
+    height: 250px;
+    width: 200px;
+    margin: 5px;
+    border: solid 2px #373435;
+}
+
+img#seta{
+    height: 15px;
+    width: 15px;
+}
+
+img.docentes{
+    height: 170px;
+    width: 270px;
+}
+
+
+table#resultados{
+    text-align: center;
+   border: solid #373435 3px;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-collapse: collapse;
+}
+
+table#resultados td, th{
+    padding: 7px;
+} 
+
+div.resultados{
+    text-align: center;
+}
+
+div.docentes{
+    display: inline-block;
+}
