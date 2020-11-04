@@ -32,7 +32,14 @@ a{
 
 a.topo, p.topo{
     color:#373435;
-    text-align: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #99d188;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+
 }
 
 img.alunos{
@@ -66,10 +73,48 @@ table#resultados td, th{
     padding: 7px;
 } 
 
+div.doc{
+    display: flex;
+}
+
 div.resultados{
     text-align: center;
 }
 
+div.depoimentos{
+    width: 210px;
+    height: 520px;
+    margin: 40px;
+}
+
+div.dep{
+    display: flex;
+    justify-content: center;
+}
+
+div.doc{
+    display: block;
+}
+
 div.docentes{
-    display: inline-block;
+    display: flex;
+}
+
+div#profs{
+    display: block;
+    text-align: center;
+}
+
+
+@media (max-width: 300px){
+    div.dep{
+        display: block;
+    }
+
+    img.docentes{
+        height: 170px;
+        width: 270px;
+        display: block;
+        margin: 8px;
+    }
 }
