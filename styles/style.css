@@ -106,7 +106,7 @@ div#profs{
 }
 
 
-@media (max-width: 300px){
+@media (max-width: 500px){
     div.dep{
         display: block;
     }
@@ -116,5 +116,19 @@ div#profs{
         width: 270px;
         display: block;
         margin: 8px;
+    }
+
+    div.docentes{
+        display: block;
+    }
+
+    img#aprovados{
+        width: auto;
+        height: 240px;
+    }
+
+    img#logo{
+        height: 100px;
+        width: auto;
     }
 }
